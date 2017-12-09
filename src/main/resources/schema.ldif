@@ -1,0 +1,39 @@
+
+dn: dc=mj,dc=com
+objectClass: top
+objectClass: domain
+
+dn: ou=groups,dc=mj,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: groups
+
+dn: ou=people,dc=mj,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: people
+
+dn: ou=otherpeople,dc=mj,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: otherpeople
+
+dn: uid=steve,ou=people,dc=mj,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Steve
+sn: Cook
+uid: steve
+userPassword: steve
+
+dn: uid=jeff,ou=otherpeople,dc=mj,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Jeff
+sn: Besoz
+uid: jeff
+userPassword: jeff
